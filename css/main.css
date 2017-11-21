@@ -116,7 +116,7 @@ button {
 #features {
   background: linear-gradient(#76278F, #2B1E66);
   color: white;
-  padding: 100px;
+  padding: 140px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   height: 500px;
@@ -152,8 +152,8 @@ button {
 .text-one,
 .text-two,
 .text-three {
-  width: 348px;
-  height: 460px;
+  width: 23.3%;
+  height: 560px;
   background: white;
   padding: 20px 50px;
   font-weight: 400;
@@ -168,3 +168,55 @@ button {
   text-transform: uppercase;
   line-height: 0px;
 }
+
+footer {
+  background: #333447;
+  color: white;
+  clear:left;
+  height: 400px;
+  padding: 50px;
+  line-height: 30px;
+}
+
+footer > .icon-stores > img {
+  width: 150px;
+  display: block;
+  margin-top: 25px;
+  margin-left: 90px;
+}
+
+footer > div {
+  display: inline-block;
+  margin: 0 88px;
+}
+
+footer > div > h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+footer > div > h3,
+footer > div > p {
+
+}
+
+.icons-network {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+}
+
+.icons-network > i {
+  margin: 55px 40px 20px 40px;
+  border: solid white 1px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+hr {
+  height: 1px;
+  width: 900px;
+}
+ footer > p {
+   text-align: center;
+ }
