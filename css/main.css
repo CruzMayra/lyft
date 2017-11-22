@@ -201,13 +201,14 @@ footer > div > p:hover {
 }
 
 .icons-network {
+  margin: 50px 0 35px 0;
   font-size: 20px;
   display: block;
   text-align: center;
 }
 
-.icons-network > i {
-  margin: 55px 40px 20px 40px;
+.icons-network > span {
+  margin: 85px 40px 20px 40px;
   border: solid white 1px;
   padding: 10px;
   border-radius: 50%;
@@ -216,6 +217,7 @@ footer > div > p:hover {
 hr {
   height: 1px;
   width: 900px;
+  background: white;
 }
  footer > p {
    text-align: center;
