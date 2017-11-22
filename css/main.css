@@ -114,6 +114,7 @@ button {
 }
 
 #features {
+  clear: left;
   background: linear-gradient(#76278F, #2B1E66);
   color: white;
   padding: 140px;
@@ -147,9 +148,11 @@ button {
 
 
 .video-one,
-.text-two,
+/*.text-two,*/
 .video-three {
   float: right;
+  width:70%;
+  height: 600px;
 }
 
 .text-one,
