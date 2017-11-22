@@ -128,14 +128,23 @@ button {
   text-transform: uppercase;
 }
 
-#features section {
+.features-text {
   float: left;
 }
 
-#features img {
-  width: 520px;
+.features-image {
+  width: 45%;
   float: right;
 }
+
+.features-image > img {
+  width: 100%;
+}
+
+.whatch-box {
+  width: 100%;
+}
+
 
 .video-one,
 .text-two,
