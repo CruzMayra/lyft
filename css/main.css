@@ -149,9 +149,9 @@ button { /*diferencia de estilos en el formulario de la sección Hero*/
 #whatch .whatch-box { /*estilos para el contenedor de la sección Watch*/
   width: 100%;
   padding: 0;
-  clear: both;
   margin: 0;
   display: block;
+  clear: right;
 }
 
 .video-one, /*estilos para los contenedores de los videos*/
@@ -185,7 +185,7 @@ button { /*diferencia de estilos en el formulario de la sección Hero*/
   margin: 0;
 }
 
-#whatch > .whatch-box >.text-one > h6,
+#whatch > .whatch-box >.text-one > h6, /*estilos para diferenciar títulos en la sección de Watch*/
 #whatch > .whatch-box >.text-one > h2,
 #whatch > .whatch-box > .text-two > h6,
 #whatch > .whatch-box > .text-two > h2,
@@ -195,7 +195,7 @@ button { /*diferencia de estilos en el formulario de la sección Hero*/
   line-height: 0px;
 }
 
-footer {
+footer { /*estilos para el footer*/
   clear: both;
   background: #333447;
   color: white;
@@ -204,19 +204,19 @@ footer {
   line-height: 30px;
 }
 
-footer > .icon-stores > img {
+footer > .icon-stores > img { /*estilos para las imagenes de tiendas virtuales en el footer*/
   width: 150px;
   display: block;
   margin-top: 25px;
   margin-left: 90px;
 }
 
-footer > div {
+footer > div { /*estilos para los contenedores con información en el footer*/
   display: inline-block;
   margin: 50px 88px 0 88px;
 }
 
-footer > div > h3 {
+footer > div > h3 { /*estilos especiales para los títulos del footer*/
   text-transform: uppercase;
   font-weight: 600;
 }
