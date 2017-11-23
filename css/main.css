@@ -20,21 +20,21 @@ nav img { /*estilos para el logo de la página que se encuentra en el menú de n
   margin-left: 10px;
 }
 
-main {
+main { /*padding para evitar el solapamiento entre el formulario de la seción Hero y el menú de navegación*/
   padding: 120px 0;
 }
 
-.container {
+.container {  /*estilos del contenedor del menú de navegación para controlar los margenes*/
   width: 85%;
   background: hsla(0,0%,100%,0);
   margin: 0 5%;
 }
 
-.buttons-nav {
+.buttons-nav { /*estilos para mover los botones del menú de navegación*/
   float: right;
 }
 
-.buttons-nav div {
+.buttons-nav div { /*estilos para los botones del menú de navegación*/
   color: white;
   display: inline-block;
   font-size: 18px;
@@ -43,18 +43,18 @@ main {
   text-align: center;
 }
 
-.login {
+.login { /*estilo que diferencia botón en el menú de navegación*/
   border: solid white 1px;
   border-radius: 10px;
 }
 
-#hero {
+#hero { /*estilos de la sección Hero*/
   clear: left;
   width: 100%;
   height: 540px;
 }
 
-#hero section {
+#hero section { /*estilos de la sección que contiene el formulario en la sección Hero*/
   background: white;
   width: 35%;
   height: 480px;
@@ -63,21 +63,21 @@ main {
   float: right;
 }
 
-#hero h2 {
+#hero h2 { /*diferencia de estilos en la sección Hero*/
   font-size: 40px;
   color: #352384;
   line-height: 40px;
   font-weight: 700;
 }
 
-#hero h4 {
+#hero h4 { /*diferencia de estilos en la sección Hero*/
   font-size: 15px;
   color: #352384;
   font-weight: 400;
   line-height: 0px;
 }
 
-#hero input {
+#hero input { /*diferencia de estilos en el formulario de la sección Hero*/
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   border: none;
@@ -88,7 +88,7 @@ main {
   padding: 25px 0 10px 0;
 }
 
-button {
+button { /*diferencia de estilos en el formulario de la sección Hero*/
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   border: none;
@@ -96,26 +96,26 @@ button {
   padding: 15px 25px;
 }
 
-#hero .pink {
+#hero .pink { /*diferencia de estilos en el formulario de la sección Hero*/
   color: white;
   background: #FF00BF;
   border-radius: 10px;
 }
 
-#hero .white {
+#hero .white { /*diferencia de estilos en el formulario de la sección Hero*/
   background: white;
 }
 
-#hero .white a {
+#hero .white a { /*diferencia de estilos en el formulario de la sección Hero*/
   color: #728099;
 }
 
-#hero p {
+#hero p { /*diferencia de estilos en la sección Hero*/
   color: #728099;
   font-size: 11px;
 }
 
-#features {
+#features { /*estilos de la sección Feactures*/
   clear: left;
   background: linear-gradient(#76278F, #2B1E66);
   width: 100%;
@@ -127,14 +127,14 @@ button {
   height: 500px;
 }
 
-#features h2 {
+#features h2 { /*estilos para diferenciar títulos en la sección de Feactures*/
   margin-top: 0;
   font-weight: 400;
   font-size: 28px;
   text-transform: uppercase;
 }
 
-.features-text,
+.features-text, /*estilos para posicionar elementos en la sección Feactures*/
 .features-image {
   display: inline-block;
   width: 30%;
@@ -142,30 +142,32 @@ button {
   text-align: left;
 }
 
-.features-image > img {
+.features-image > img { /* estilo para la imagen de la sección Feactures*/
   width: 99%;
 }
 
-#whatch .whatch-box {
+#whatch .whatch-box { /*estilos para el contenedor de la sección Watch*/
   width: 100%;
   padding: 0;
   clear: both;
   margin: 0;
 }
 
-.video-one,
+.video-one, /*estilos para los contenedores de los videos*/
 .video-two,
 .video-three {
   float: right;
   width: 63%;
-  height: 520px;
+  height: 100%;
   background: white;
-  margin: 0;
+  margin: 0px;
 }
 
-iframe {
+.video-one > iframe,
+.video-two > iframe,
+.video-three > iframe {
   width: 100%;
-  height: 560px;
+  height: 520px;
   margin: 0;
   border-style: outset;
 }
@@ -174,8 +176,8 @@ iframe {
 .text-two,
 .text-three {
   float: right;
-  width: 30%;
-  height: 520px;
+  width: 29%;
+  height: auto;
   background: white;
   padding: 20px 50px;
   font-weight: 400;
@@ -193,6 +195,7 @@ iframe {
 }
 
 footer {
+  clear: both;
   background: #333447;
   color: white;
   height: auto;
