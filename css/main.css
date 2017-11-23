@@ -4,16 +4,17 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
 }
 
-nav {
+nav { /*estilos para el menú de navegación*/
   margin: 0;
   padding: 2% 0;
   background: hsla(0,0%,100%,0);
   position: fixed;
 }
 
-nav img {
+nav img { /*estilos para el logo de la página que se encuentra en el menú de navegación*/
   width: 6%;
   float: left;
   margin-left: 10px;
@@ -50,12 +51,13 @@ main {
 #hero {
   clear: left;
   width: 100%;
-  height: 472px;
+  height: 540px;
 }
 
 #hero section {
   background: white;
-  width: 460px;
+  width: 35%;
+  height: 480px;
   text-align: left;
   padding: 30px 50px;
   float: right;
@@ -116,67 +118,76 @@ button {
 #features {
   clear: left;
   background: linear-gradient(#76278F, #2B1E66);
+  width: 100%;
   color: white;
-  padding: 140px;
+  padding: 5% 0;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   height: 500px;
 }
 
 #features h2 {
+  margin-top: 0;
   font-weight: 400;
   font-size: 28px;
   text-transform: uppercase;
 }
 
-.features-text {
-  float: left;
-}
-
+.features-text,
 .features-image {
-  width: 45%;
-  float: right;
+  display: inline-block;
+  width: 30%;
+  margin: 0 5%;
+  text-align: left;
 }
 
 .features-image > img {
-  width: 100%;
+  width: 99%;
 }
 
-.whatch-box {
+#whatch .whatch-box {
   width: 100%;
+  padding: 0;
+  clear: both;
+  margin: 0;
 }
-
 
 .video-one,
-/*.text-two,*/
+.video-two,
 .video-three {
   float: right;
-  width:70%;
-  height: 600px;
+  width: 63%;
+  height: 520px;
+  background: white;
+  margin: 0;
 }
 
-.text-one,
-.video-two,
-.text-three {
-  float: left;
+iframe {
+  width: 100%;
+  height: 560px;
+  margin: 0;
+  border-style: outset;
 }
 
 .text-one,
 .text-two,
 .text-three {
-  width: 23.3%;
-  height: 560px;
+  float: right;
+  width: 30%;
+  height: 520px;
   background: white;
   padding: 20px 50px;
   font-weight: 400;
+  margin: 0;
 }
 
-#whatch > .text-one > h6,
-#whatch > .text-one > h2,
-#whatch > .text-two > h6,
-#whatch > .text-two > h2,
-#whatch > .text-three > h6,
-#whatch > .text-three > h2 {
+#whatch > .whatch-box >.text-one > h6,
+#whatch > .whatch-box >.text-one > h2,
+#whatch > .whatch-box > .text-two > h6,
+#whatch > .whatch-box > .text-two > h2,
+#whatch > .whatch-box > .text-three > h6,
+#whatch > .whatch-box > .text-three > h2 {
   text-transform: uppercase;
   line-height: 0px;
 }
@@ -184,8 +195,7 @@ button {
 footer {
   background: #333447;
   color: white;
-  clear:left;
-  height: 400px;
+  height: auto;
   padding: 50px;
   line-height: 30px;
 }
@@ -199,7 +209,7 @@ footer > .icon-stores > img {
 
 footer > div {
   display: inline-block;
-  margin: 0 88px;
+  margin: 50px 88px 0 88px;
 }
 
 footer > div > h3 {
