@@ -150,7 +150,7 @@ button { /*diferencia de estilos en el formulario de la sección Hero*/
   width: 100%;
   padding: 0;
   margin: 0;
-  display: block;
+  /*display: block;*/
   clear: right;
 }
 
@@ -221,30 +221,30 @@ footer > div > h3 { /*estilos especiales para los títulos del footer*/
   font-weight: 600;
 }
 
-footer > div > p:hover {
+footer > div > p:hover { /*estilos para efectos al pasar el cursos en el footer*/
   color: #FF00BF;
   cursor: pointer;
 }
 
-.icons-network {
+.icons-network { /*estilos para acomodar iconos de redes sociales en el footer*/
   margin: 50px 0 35px 0;
   font-size: 20px;
   display: block;
   text-align: center;
 }
 
-.icons-network > span {
+.icons-network > span { /*estilos para dar borde redondeado a los iconos de redes*/
   margin: 85px 40px 20px 40px;
   border: solid white 1px;
   padding: 10px;
   border-radius: 50%;
 }
 
-hr {
+hr { /*estilos para línea en el footer*/
   height: 1px;
   width: 900px;
   background: white;
 }
- footer > p {
+ footer > p { /*estilos para última línea del footer*/
    text-align: center;
  }
