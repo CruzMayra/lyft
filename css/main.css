@@ -167,7 +167,7 @@ button { /*diferencia de estilos en el formulario de la sección Hero*/
 .video-one > iframe, /*estilos para el tamaño de lo videos dentro de los contenedores*/
 .video-two > iframe,
 .video-three > iframe {
-  width: 100%;
+  width: 99.8%;
   height: 520px;
   margin: 0;
   border-style: outset;
@@ -213,7 +213,7 @@ footer > .icon-stores > img { /*estilos para las imagenes de tiendas virtuales e
 
 footer > div { /*estilos para los contenedores con información en el footer*/
   display: inline-block;
-  margin: 50px 88px 0 88px;
+  margin: 50px 70px 0 70px;
 }
 
 footer > div > h3 { /*estilos especiales para los títulos del footer*/
