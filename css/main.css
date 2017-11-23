@@ -159,7 +159,7 @@ button { /*diferencia de estilos en el formulario de la sección Hero*/
 .video-three {
   float: right;
   width: 63%;
-  height: 100%;
+  height: auto;
   background: white;
   margin: 0px;
 }
