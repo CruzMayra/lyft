@@ -151,6 +151,7 @@ button { /*diferencia de estilos en el formulario de la sección Hero*/
   padding: 0;
   clear: both;
   margin: 0;
+  display: block;
 }
 
 .video-one, /*estilos para los contenedores de los videos*/
@@ -163,7 +164,7 @@ button { /*diferencia de estilos en el formulario de la sección Hero*/
   margin: 0px;
 }
 
-.video-one > iframe,
+.video-one > iframe, /*estilos para el tamaño de lo videos dentro de los contenedores*/
 .video-two > iframe,
 .video-three > iframe {
   width: 100%;
@@ -172,7 +173,7 @@ button { /*diferencia de estilos en el formulario de la sección Hero*/
   border-style: outset;
 }
 
-.text-one,
+.text-one, /*estilos para los textos de descripción de los videos*/
 .text-two,
 .text-three {
   float: right;
