@@ -152,6 +152,7 @@ button { /*diferencia de estilos en el formulario de la sección Hero*/
   margin: 0;
   /*display: block;*/
   clear: right;
+  position: relative;
 }
 
 .video-one, /*estilos para los contenedores de los videos*/
